@@ -4,6 +4,10 @@ Kurshat Muhammet
 
 FieldFlow is a database for managing field service operations and dispatching field technicians to appointments/jobs, tracking job status, and collecting client reviews. This project converts the relational SQL database into a non-SQL MongoDB document database using embedded data.
 
+## Video: https://www.youtube.com/watch?v=COOfO1h4dOI
+
+Note: in the video, the data was imported twice without --drop, so some query results show double counts (e.g. Q3 returns 6 instead of 3). The queries themselves are correct, use --drop on import to get clean results.
+
 Walkthrough:
 
 1. Requirements & Conceptual Model
@@ -42,6 +46,7 @@ mongoimport --db fieldflow --collection clients --file data/clients.json --jsonA
 mongoimport --db fieldflow --collection jobs --file data/jobs.json --jsonArray
 ```
 
+Note that if importing again, add "--drop".
 
 
 5. Queries
