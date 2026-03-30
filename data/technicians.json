@@ -1,0 +1,220 @@
+[
+  {
+    "firstName": "Mike",
+    "lastName": "Rivera",
+    "email": "mike.rivera@fieldflow.com",
+    "phone": "555-0301",
+    "region": { "regionId": 1, "regionName": "Downtown", "city": "Portland", "state": "OR" },
+    "skills": [
+      { "skillId": 1, "skillName": "HVAC Repair", "category": "Heating & Cooling" },
+      { "skillId": 4, "skillName": "Appliance Repair", "category": "General" }
+    ],
+    "availability": [
+      { "dayOfWeek": "Monday", "startTime": "08:00", "endTime": "17:00" },
+      { "dayOfWeek": "Tuesday", "startTime": "08:00", "endTime": "17:00" },
+      { "dayOfWeek": "Wednesday", "startTime": "08:00", "endTime": "17:00" },
+      { "dayOfWeek": "Thursday", "startTime": "08:00", "endTime": "17:00" },
+      { "dayOfWeek": "Friday", "startTime": "08:00", "endTime": "14:00" }
+    ],
+    "isAvailable": true
+  },
+  {
+    "firstName": "Nina",
+    "lastName": "Scott",
+    "email": "nina.scott@fieldflow.com",
+    "phone": "555-0302",
+    "region": { "regionId": 1, "regionName": "Downtown", "city": "Portland", "state": "OR" },
+    "skills": [
+      { "skillId": 2, "skillName": "Electrical Wiring", "category": "Electrical" },
+      { "skillId": 6, "skillName": "Solar Panel Installation", "category": "Electrical" }
+    ],
+    "availability": [
+      { "dayOfWeek": "Monday", "startTime": "07:00", "endTime": "16:00" },
+      { "dayOfWeek": "Tuesday", "startTime": "07:00", "endTime": "16:00" },
+      { "dayOfWeek": "Wednesday", "startTime": "07:00", "endTime": "16:00" },
+      { "dayOfWeek": "Thursday", "startTime": "07:00", "endTime": "16:00" }
+    ],
+    "isAvailable": true
+  },
+  {
+    "firstName": "Oscar",
+    "lastName": "Nguyen",
+    "email": "oscar.nguyen@fieldflow.com",
+    "phone": "555-0303",
+    "region": { "regionId": 2, "regionName": "Eastside", "city": "Portland", "state": "OR" },
+    "skills": [
+      { "skillId": 3, "skillName": "Plumbing", "category": "Plumbing" },
+      { "skillId": 1, "skillName": "HVAC Repair", "category": "Heating & Cooling" }
+    ],
+    "availability": [
+      { "dayOfWeek": "Monday", "startTime": "09:00", "endTime": "18:00" },
+      { "dayOfWeek": "Wednesday", "startTime": "09:00", "endTime": "18:00" },
+      { "dayOfWeek": "Friday", "startTime": "09:00", "endTime": "15:00" }
+    ],
+    "isAvailable": false
+  },
+  {
+    "firstName": "Paula",
+    "lastName": "Adams",
+    "email": "paula.adams@fieldflow.com",
+    "phone": "555-0304",
+    "region": { "regionId": 2, "regionName": "Eastside", "city": "Portland", "state": "OR" },
+    "skills": [
+      { "skillId": 2, "skillName": "Electrical Wiring", "category": "Electrical" },
+      { "skillId": 5, "skillName": "Network Installation", "category": "IT" },
+      { "skillId": 3, "skillName": "Plumbing", "category": "Plumbing" }
+    ],
+    "availability": [
+      { "dayOfWeek": "Monday", "startTime": "09:00", "endTime": "18:00" },
+      { "dayOfWeek": "Wednesday", "startTime": "09:00", "endTime": "18:00" },
+      { "dayOfWeek": "Friday", "startTime": "09:00", "endTime": "15:00" }
+    ],
+    "isAvailable": true
+  },
+  {
+    "firstName": "Quinn",
+    "lastName": "Harris",
+    "email": "quinn.harris@fieldflow.com",
+    "phone": "555-0305",
+    "region": { "regionId": 3, "regionName": "Westside", "city": "Portland", "state": "OR" },
+    "skills": [
+      { "skillId": 4, "skillName": "Appliance Repair", "category": "General" },
+      { "skillId": 1, "skillName": "HVAC Repair", "category": "Heating & Cooling" }
+    ],
+    "availability": [
+      { "dayOfWeek": "Monday", "startTime": "08:00", "endTime": "17:00" },
+      { "dayOfWeek": "Tuesday", "startTime": "08:00", "endTime": "17:00" },
+      { "dayOfWeek": "Wednesday", "startTime": "08:00", "endTime": "17:00" },
+      { "dayOfWeek": "Thursday", "startTime": "08:00", "endTime": "17:00" },
+      { "dayOfWeek": "Friday", "startTime": "08:00", "endTime": "17:00" }
+    ],
+    "isAvailable": true
+  },
+  {
+    "firstName": "Rachel",
+    "lastName": "Turner",
+    "email": "rachel.turner@fieldflow.com",
+    "phone": "555-0306",
+    "region": { "regionId": 3, "regionName": "Westside", "city": "Portland", "state": "OR" },
+    "skills": [
+      { "skillId": 3, "skillName": "Plumbing", "category": "Plumbing" },
+      { "skillId": 6, "skillName": "Solar Panel Installation", "category": "Electrical" }
+    ],
+    "availability": [
+      { "dayOfWeek": "Tuesday", "startTime": "10:00", "endTime": "18:00" },
+      { "dayOfWeek": "Thursday", "startTime": "10:00", "endTime": "18:00" }
+    ],
+    "isAvailable": false
+  },
+  {
+    "firstName": "Sam",
+    "lastName": "Cooper",
+    "email": "sam.cooper@fieldflow.com",
+    "phone": "555-0307",
+    "region": { "regionId": 4, "regionName": "North Bay", "city": "San Francisco", "state": "CA" },
+    "skills": [
+      { "skillId": 5, "skillName": "Network Installation", "category": "IT" },
+      { "skillId": 2, "skillName": "Electrical Wiring", "category": "Electrical" },
+      { "skillId": 1, "skillName": "HVAC Repair", "category": "Heating & Cooling" }
+    ],
+    "availability": [
+      { "dayOfWeek": "Monday", "startTime": "08:00", "endTime": "16:00" },
+      { "dayOfWeek": "Tuesday", "startTime": "08:00", "endTime": "16:00" },
+      { "dayOfWeek": "Wednesday", "startTime": "08:00", "endTime": "16:00" },
+      { "dayOfWeek": "Thursday", "startTime": "08:00", "endTime": "16:00" },
+      { "dayOfWeek": "Friday", "startTime": "08:00", "endTime": "12:00" }
+    ],
+    "isAvailable": true
+  },
+  {
+    "firstName": "Tina",
+    "lastName": "Brooks",
+    "email": "tina.brooks@fieldflow.com",
+    "phone": "555-0308",
+    "region": { "regionId": 5, "regionName": "South Bay", "city": "San Jose", "state": "CA" },
+    "skills": [
+      { "skillId": 4, "skillName": "Appliance Repair", "category": "General" },
+      { "skillId": 3, "skillName": "Plumbing", "category": "Plumbing" }
+    ],
+    "availability": [
+      { "dayOfWeek": "Monday", "startTime": "08:00", "endTime": "17:00" },
+      { "dayOfWeek": "Tuesday", "startTime": "08:00", "endTime": "17:00" },
+      { "dayOfWeek": "Wednesday", "startTime": "08:00", "endTime": "17:00" },
+      { "dayOfWeek": "Thursday", "startTime": "08:00", "endTime": "17:00" }
+    ],
+    "isAvailable": true
+  },
+  {
+    "firstName": "Derek",
+    "lastName": "Flores",
+    "email": "derek.flores@fieldflow.com",
+    "phone": "555-0309",
+    "region": { "regionId": 1, "regionName": "Downtown", "city": "Portland", "state": "OR" },
+    "skills": [
+      { "skillId": 3, "skillName": "Plumbing", "category": "Plumbing" },
+      { "skillId": 4, "skillName": "Appliance Repair", "category": "General" },
+      { "skillId": 1, "skillName": "HVAC Repair", "category": "Heating & Cooling" }
+    ],
+    "availability": [
+      { "dayOfWeek": "Monday", "startTime": "07:30", "endTime": "16:30" },
+      { "dayOfWeek": "Tuesday", "startTime": "07:30", "endTime": "16:30" },
+      { "dayOfWeek": "Wednesday", "startTime": "07:30", "endTime": "16:30" }
+    ],
+    "isAvailable": true
+  },
+  {
+    "firstName": "Laura",
+    "lastName": "Mitchell",
+    "email": "laura.mitchell@fieldflow.com",
+    "phone": "555-0310",
+    "region": { "regionId": 2, "regionName": "Eastside", "city": "Portland", "state": "OR" },
+    "skills": [
+      { "skillId": 6, "skillName": "Solar Panel Installation", "category": "Electrical" },
+      { "skillId": 2, "skillName": "Electrical Wiring", "category": "Electrical" }
+    ],
+    "availability": [
+      { "dayOfWeek": "Monday", "startTime": "08:00", "endTime": "17:00" },
+      { "dayOfWeek": "Tuesday", "startTime": "08:00", "endTime": "17:00" },
+      { "dayOfWeek": "Thursday", "startTime": "08:00", "endTime": "17:00" },
+      { "dayOfWeek": "Friday", "startTime": "08:00", "endTime": "14:00" }
+    ],
+    "isAvailable": true
+  },
+  {
+    "firstName": "Jason",
+    "lastName": "Ortiz",
+    "email": "jason.ortiz@fieldflow.com",
+    "phone": "555-0311",
+    "region": { "regionId": 4, "regionName": "North Bay", "city": "San Francisco", "state": "CA" },
+    "skills": [
+      { "skillId": 1, "skillName": "HVAC Repair", "category": "Heating & Cooling" },
+      { "skillId": 3, "skillName": "Plumbing", "category": "Plumbing" }
+    ],
+    "availability": [
+      { "dayOfWeek": "Monday", "startTime": "09:00", "endTime": "17:00" },
+      { "dayOfWeek": "Tuesday", "startTime": "09:00", "endTime": "17:00" },
+      { "dayOfWeek": "Wednesday", "startTime": "09:00", "endTime": "17:00" },
+      { "dayOfWeek": "Thursday", "startTime": "09:00", "endTime": "17:00" },
+      { "dayOfWeek": "Friday", "startTime": "09:00", "endTime": "17:00" }
+    ],
+    "isAvailable": true
+  },
+  {
+    "firstName": "Megan",
+    "lastName": "Park",
+    "email": "megan.park@fieldflow.com",
+    "phone": "555-0312",
+    "region": { "regionId": 5, "regionName": "South Bay", "city": "San Jose", "state": "CA" },
+    "skills": [
+      { "skillId": 5, "skillName": "Network Installation", "category": "IT" },
+      { "skillId": 4, "skillName": "Appliance Repair", "category": "General" },
+      { "skillId": 2, "skillName": "Electrical Wiring", "category": "Electrical" }
+    ],
+    "availability": [
+      { "dayOfWeek": "Monday", "startTime": "08:00", "endTime": "16:00" },
+      { "dayOfWeek": "Wednesday", "startTime": "08:00", "endTime": "16:00" },
+      { "dayOfWeek": "Friday", "startTime": "08:00", "endTime": "16:00" }
+    ],
+    "isAvailable": true
+  }
+]

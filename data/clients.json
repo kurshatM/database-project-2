@@ -1,0 +1,82 @@
+[
+  {
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "email": "alice.johnson@email.com",
+    "phone": "555-0101",
+    "address": "123 Oak St",
+    "region": { "regionId": 1, "regionName": "Downtown", "city": "Portland", "state": "OR" }
+  },
+  {
+    "firstName": "Bob",
+    "lastName": "Martinez",
+    "email": "bob.martinez@email.com",
+    "phone": "555-0102",
+    "address": "456 Maple Ave",
+    "region": { "regionId": 1, "regionName": "Downtown", "city": "Portland", "state": "OR" }
+  },
+  {
+    "firstName": "Carol",
+    "lastName": "Chen",
+    "email": "carol.chen@email.com",
+    "phone": "555-0103",
+    "address": "789 Pine Rd",
+    "region": { "regionId": 2, "regionName": "Eastside", "city": "Portland", "state": "OR" }
+  },
+  {
+    "firstName": "David",
+    "lastName": "Kim",
+    "email": "david.kim@email.com",
+    "phone": "555-0104",
+    "address": "321 Elm Blvd",
+    "region": { "regionId": 2, "regionName": "Eastside", "city": "Portland", "state": "OR" }
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "email": "emily.davis@email.com",
+    "phone": "555-0105",
+    "address": "654 Cedar Ln",
+    "region": { "regionId": 3, "regionName": "Westside", "city": "Portland", "state": "OR" }
+  },
+  {
+    "firstName": "Frank",
+    "lastName": "Wilson",
+    "email": "frank.wilson@email.com",
+    "phone": "555-0106",
+    "address": "987 Birch Way",
+    "region": { "regionId": 3, "regionName": "Westside", "city": "Portland", "state": "OR" }
+  },
+  {
+    "firstName": "Grace",
+    "lastName": "Lee",
+    "email": "grace.lee@email.com",
+    "phone": "555-0107",
+    "address": "147 Spruce Dr",
+    "region": { "regionId": 4, "regionName": "North Bay", "city": "San Francisco", "state": "CA" }
+  },
+  {
+    "firstName": "Henry",
+    "lastName": "Brown",
+    "email": "henry.brown@email.com",
+    "phone": "555-0108",
+    "address": "258 Willow Ct",
+    "region": { "regionId": 5, "regionName": "South Bay", "city": "San Jose", "state": "CA" }
+  },
+  {
+    "firstName": "Vanessa",
+    "lastName": "Reyes",
+    "email": "vanessa.reyes@email.com",
+    "phone": "555-0109",
+    "address": "410 Ash Blvd",
+    "region": { "regionId": 4, "regionName": "North Bay", "city": "San Francisco", "state": "CA" }
+  },
+  {
+    "firstName": "Tyler",
+    "lastName": "Nakamura",
+    "email": "tyler.nakamura@email.com",
+    "phone": "555-0110",
+    "address": "722 Redwood Pl",
+    "region": { "regionId": 5, "regionName": "South Bay", "city": "San Jose", "state": "CA" }
+  }
+]

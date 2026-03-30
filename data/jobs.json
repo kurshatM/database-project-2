@@ -1,0 +1,394 @@
+[
+  {
+    "description": "AC unit not cooling",
+    "status": "Completed",
+    "scheduledDate": "2026-01-10",
+    "completedDate": "2026-01-10",
+    "priority": "High",
+    "client": { "firstName": "Alice", "lastName": "Johnson", "email": "alice.johnson@email.com", "phone": "555-0101", "address": "123 Oak St" },
+    "technician": { "firstName": "Mike", "lastName": "Rivera", "email": "mike.rivera@fieldflow.com" },
+    "dispatcher": { "firstName": "Irene", "lastName": "Patel" },
+    "region": { "regionId": 1, "regionName": "Downtown", "city": "Portland", "state": "OR" },
+    "reviews": [
+      { "rating": 5, "comment": "Excellent service, fixed the AC quickly!", "reviewDate": "2026-01-11" },
+      { "rating": 1, "comment": "Technician was late and unprofessional.", "reviewDate": "2026-01-11" }
+    ]
+  },
+  {
+    "description": "Outlet sparking in kitchen",
+    "status": "Completed",
+    "scheduledDate": "2026-01-12",
+    "completedDate": "2026-01-12",
+    "priority": "High",
+    "client": { "firstName": "Bob", "lastName": "Martinez", "email": "bob.martinez@email.com", "phone": "555-0102", "address": "456 Maple Ave" },
+    "technician": { "firstName": "Nina", "lastName": "Scott", "email": "nina.scott@fieldflow.com" },
+    "dispatcher": { "firstName": "Irene", "lastName": "Patel" },
+    "region": { "regionId": 1, "regionName": "Downtown", "city": "Portland", "state": "OR" },
+    "reviews": [
+      { "rating": 4, "comment": "Good work, very professional.", "reviewDate": "2026-01-13" }
+    ]
+  },
+  {
+    "description": "Leaking bathroom faucet",
+    "status": "Completed",
+    "scheduledDate": "2026-01-15",
+    "completedDate": "2026-01-16",
+    "priority": "Medium",
+    "client": { "firstName": "Carol", "lastName": "Chen", "email": "carol.chen@email.com", "phone": "555-0103", "address": "789 Pine Rd" },
+    "technician": { "firstName": "Oscar", "lastName": "Nguyen", "email": "oscar.nguyen@fieldflow.com" },
+    "dispatcher": { "firstName": "Jack", "lastName": "Thompson" },
+    "region": { "regionId": 2, "regionName": "Eastside", "city": "Portland", "state": "OR" },
+    "reviews": [
+      { "rating": 3, "comment": "Job done but took longer than expected.", "reviewDate": "2026-01-17" }
+    ]
+  },
+  {
+    "description": "Dishwasher not draining",
+    "status": "Completed",
+    "scheduledDate": "2026-01-18",
+    "completedDate": "2026-01-18",
+    "priority": "Low",
+    "client": { "firstName": "David", "lastName": "Kim", "email": "david.kim@email.com", "phone": "555-0104", "address": "321 Elm Blvd" },
+    "technician": { "firstName": "Paula", "lastName": "Adams", "email": "paula.adams@fieldflow.com" },
+    "dispatcher": { "firstName": "Jack", "lastName": "Thompson" },
+    "region": { "regionId": 2, "regionName": "Eastside", "city": "Portland", "state": "OR" },
+    "reviews": [
+      { "rating": 5, "comment": "Quick and clean fix.", "reviewDate": "2026-01-19" }
+    ]
+  },
+  {
+    "description": "Install home network",
+    "status": "Completed",
+    "scheduledDate": "2026-01-20",
+    "completedDate": "2026-01-21",
+    "priority": "Medium",
+    "client": { "firstName": "Emily", "lastName": "Davis", "email": "emily.davis@email.com", "phone": "555-0105", "address": "654 Cedar Ln" },
+    "technician": { "firstName": "Quinn", "lastName": "Harris", "email": "quinn.harris@fieldflow.com" },
+    "dispatcher": { "firstName": "Karen", "lastName": "White" },
+    "region": { "regionId": 3, "regionName": "Westside", "city": "Portland", "state": "OR" },
+    "reviews": [
+      { "rating": 4, "comment": "Network works great, minor cable mess.", "reviewDate": "2026-01-22" }
+    ]
+  },
+  {
+    "description": "Furnace making noise",
+    "status": "Completed",
+    "scheduledDate": "2026-01-25",
+    "completedDate": "2026-01-26",
+    "priority": "High",
+    "client": { "firstName": "Alice", "lastName": "Johnson", "email": "alice.johnson@email.com", "phone": "555-0101", "address": "123 Oak St" },
+    "technician": { "firstName": "Mike", "lastName": "Rivera", "email": "mike.rivera@fieldflow.com" },
+    "dispatcher": { "firstName": "Irene", "lastName": "Patel" },
+    "region": { "regionId": 1, "regionName": "Downtown", "city": "Portland", "state": "OR" },
+    "reviews": [
+      { "rating": 2, "comment": "Furnace still makes a faint noise.", "reviewDate": "2026-01-27" }
+    ]
+  },
+  {
+    "description": "Toilet running constantly",
+    "status": "Completed",
+    "scheduledDate": "2026-02-01",
+    "completedDate": "2026-02-01",
+    "priority": "Medium",
+    "client": { "firstName": "Frank", "lastName": "Wilson", "email": "frank.wilson@email.com", "phone": "555-0106", "address": "987 Birch Way" },
+    "technician": { "firstName": "Rachel", "lastName": "Turner", "email": "rachel.turner@fieldflow.com" },
+    "dispatcher": { "firstName": "Karen", "lastName": "White" },
+    "region": { "regionId": 3, "regionName": "Westside", "city": "Portland", "state": "OR" },
+    "reviews": [
+      { "rating": 5, "comment": "Perfect, no more running toilet.", "reviewDate": "2026-02-02" },
+      { "rating": 5, "comment": "Above and beyond service!", "reviewDate": "2026-02-02" }
+    ]
+  },
+  {
+    "description": "Solar panel inspection",
+    "status": "Completed",
+    "scheduledDate": "2026-02-05",
+    "completedDate": "2026-02-06",
+    "priority": "Low",
+    "client": { "firstName": "Grace", "lastName": "Lee", "email": "grace.lee@email.com", "phone": "555-0107", "address": "147 Spruce Dr" },
+    "technician": { "firstName": "Sam", "lastName": "Cooper", "email": "sam.cooper@fieldflow.com" },
+    "dispatcher": { "firstName": "Leo", "lastName": "Garcia" },
+    "region": { "regionId": 4, "regionName": "North Bay", "city": "San Francisco", "state": "CA" },
+    "reviews": [
+      { "rating": 4, "comment": "Thorough inspection, good recommendations.", "reviewDate": "2026-02-07" }
+    ]
+  },
+  {
+    "description": "Garbage disposal jammed",
+    "status": "In Progress",
+    "scheduledDate": "2026-02-20",
+    "completedDate": null,
+    "priority": "Medium",
+    "client": { "firstName": "Henry", "lastName": "Brown", "email": "henry.brown@email.com", "phone": "555-0108", "address": "258 Willow Ct" },
+    "technician": { "firstName": "Tina", "lastName": "Brooks", "email": "tina.brooks@fieldflow.com" },
+    "dispatcher": { "firstName": "Leo", "lastName": "Garcia" },
+    "region": { "regionId": 5, "regionName": "South Bay", "city": "San Jose", "state": "CA" },
+    "reviews": []
+  },
+  {
+    "description": "Rewire basement lights",
+    "status": "In Progress",
+    "scheduledDate": "2026-02-22",
+    "completedDate": null,
+    "priority": "Low",
+    "client": { "firstName": "Carol", "lastName": "Chen", "email": "carol.chen@email.com", "phone": "555-0103", "address": "789 Pine Rd" },
+    "technician": { "firstName": "Paula", "lastName": "Adams", "email": "paula.adams@fieldflow.com" },
+    "dispatcher": { "firstName": "Jack", "lastName": "Thompson" },
+    "region": { "regionId": 2, "regionName": "Eastside", "city": "Portland", "state": "OR" },
+    "reviews": []
+  },
+  {
+    "description": "AC maintenance checkup",
+    "status": "Assigned",
+    "scheduledDate": "2026-03-01",
+    "completedDate": null,
+    "priority": "Low",
+    "client": { "firstName": "Bob", "lastName": "Martinez", "email": "bob.martinez@email.com", "phone": "555-0102", "address": "456 Maple Ave" },
+    "technician": { "firstName": "Mike", "lastName": "Rivera", "email": "mike.rivera@fieldflow.com" },
+    "dispatcher": { "firstName": "Irene", "lastName": "Patel" },
+    "region": { "regionId": 1, "regionName": "Downtown", "city": "Portland", "state": "OR" },
+    "reviews": []
+  },
+  {
+    "description": "Pipe burst in basement",
+    "status": "Assigned",
+    "scheduledDate": "2026-03-02",
+    "completedDate": null,
+    "priority": "High",
+    "client": { "firstName": "David", "lastName": "Kim", "email": "david.kim@email.com", "phone": "555-0104", "address": "321 Elm Blvd" },
+    "technician": { "firstName": "Oscar", "lastName": "Nguyen", "email": "oscar.nguyen@fieldflow.com" },
+    "dispatcher": { "firstName": "Jack", "lastName": "Thompson" },
+    "region": { "regionId": 2, "regionName": "Eastside", "city": "Portland", "state": "OR" },
+    "reviews": []
+  },
+  {
+    "description": "Install solar panels",
+    "status": "Pending",
+    "scheduledDate": "2026-03-10",
+    "completedDate": null,
+    "priority": "Medium",
+    "client": { "firstName": "Emily", "lastName": "Davis", "email": "emily.davis@email.com", "phone": "555-0105", "address": "654 Cedar Ln" },
+    "technician": null,
+    "dispatcher": null,
+    "region": { "regionId": 3, "regionName": "Westside", "city": "Portland", "state": "OR" },
+    "reviews": []
+  },
+  {
+    "description": "Flickering office lights",
+    "status": "Pending",
+    "scheduledDate": "2026-03-12",
+    "completedDate": null,
+    "priority": "Low",
+    "client": { "firstName": "Grace", "lastName": "Lee", "email": "grace.lee@email.com", "phone": "555-0107", "address": "147 Spruce Dr" },
+    "technician": null,
+    "dispatcher": null,
+    "region": { "regionId": 4, "regionName": "North Bay", "city": "San Francisco", "state": "CA" },
+    "reviews": []
+  },
+  {
+    "description": "Water heater replacement",
+    "status": "Pending",
+    "scheduledDate": "2026-03-15",
+    "completedDate": null,
+    "priority": "High",
+    "client": { "firstName": "Frank", "lastName": "Wilson", "email": "frank.wilson@email.com", "phone": "555-0106", "address": "987 Birch Way" },
+    "technician": null,
+    "dispatcher": null,
+    "region": { "regionId": 3, "regionName": "Westside", "city": "Portland", "state": "OR" },
+    "reviews": []
+  },
+  {
+    "description": "Thermostat wiring issue",
+    "status": "Completed",
+    "scheduledDate": "2026-01-28",
+    "completedDate": "2026-01-28",
+    "priority": "Medium",
+    "client": { "firstName": "Vanessa", "lastName": "Reyes", "email": "vanessa.reyes@email.com", "phone": "555-0109", "address": "410 Ash Blvd" },
+    "technician": { "firstName": "Sam", "lastName": "Cooper", "email": "sam.cooper@fieldflow.com" },
+    "dispatcher": { "firstName": "Leo", "lastName": "Garcia" },
+    "region": { "regionId": 4, "regionName": "North Bay", "city": "San Francisco", "state": "CA" },
+    "reviews": [
+      { "rating": 5, "comment": "Knew exactly what the problem was. Fast fix.", "reviewDate": "2026-01-29" }
+    ]
+  },
+  {
+    "description": "Clogged kitchen drain",
+    "status": "Completed",
+    "scheduledDate": "2026-02-03",
+    "completedDate": "2026-02-03",
+    "priority": "Medium",
+    "client": { "firstName": "Tyler", "lastName": "Nakamura", "email": "tyler.nakamura@email.com", "phone": "555-0110", "address": "722 Redwood Pl" },
+    "technician": { "firstName": "Tina", "lastName": "Brooks", "email": "tina.brooks@fieldflow.com" },
+    "dispatcher": { "firstName": "Leo", "lastName": "Garcia" },
+    "region": { "regionId": 5, "regionName": "South Bay", "city": "San Jose", "state": "CA" },
+    "reviews": [
+      { "rating": 4, "comment": "Resolved quickly, friendly technician.", "reviewDate": "2026-02-04" }
+    ]
+  },
+  {
+    "description": "Replace ceiling fan motor",
+    "status": "Completed",
+    "scheduledDate": "2026-02-08",
+    "completedDate": "2026-02-09",
+    "priority": "Low",
+    "client": { "firstName": "Alice", "lastName": "Johnson", "email": "alice.johnson@email.com", "phone": "555-0101", "address": "123 Oak St" },
+    "technician": { "firstName": "Derek", "lastName": "Flores", "email": "derek.flores@fieldflow.com" },
+    "dispatcher": { "firstName": "Irene", "lastName": "Patel" },
+    "region": { "regionId": 1, "regionName": "Downtown", "city": "Portland", "state": "OR" },
+    "reviews": [
+      { "rating": 5, "comment": "Great job, fan works like new.", "reviewDate": "2026-02-10" }
+    ]
+  },
+  {
+    "description": "Office network drops frequently",
+    "status": "Completed",
+    "scheduledDate": "2026-02-10",
+    "completedDate": "2026-02-11",
+    "priority": "High",
+    "client": { "firstName": "Vanessa", "lastName": "Reyes", "email": "vanessa.reyes@email.com", "phone": "555-0109", "address": "410 Ash Blvd" },
+    "technician": { "firstName": "Sam", "lastName": "Cooper", "email": "sam.cooper@fieldflow.com" },
+    "dispatcher": { "firstName": "Leo", "lastName": "Garcia" },
+    "region": { "regionId": 4, "regionName": "North Bay", "city": "San Francisco", "state": "CA" },
+    "reviews": [
+      { "rating": 3, "comment": "Fixed the drops but cable management could be better.", "reviewDate": "2026-02-12" }
+    ]
+  },
+  {
+    "description": "Bathroom sink installation",
+    "status": "Completed",
+    "scheduledDate": "2026-02-12",
+    "completedDate": "2026-02-12",
+    "priority": "Medium",
+    "client": { "firstName": "David", "lastName": "Kim", "email": "david.kim@email.com", "phone": "555-0104", "address": "321 Elm Blvd" },
+    "technician": { "firstName": "Oscar", "lastName": "Nguyen", "email": "oscar.nguyen@fieldflow.com" },
+    "dispatcher": { "firstName": "Jack", "lastName": "Thompson" },
+    "region": { "regionId": 2, "regionName": "Eastside", "city": "Portland", "state": "OR" },
+    "reviews": [
+      { "rating": 4, "comment": "Clean install, no leaks.", "reviewDate": "2026-02-13" }
+    ]
+  },
+  {
+    "description": "Outdoor lighting repair",
+    "status": "In Progress",
+    "scheduledDate": "2026-02-25",
+    "completedDate": null,
+    "priority": "Low",
+    "client": { "firstName": "Bob", "lastName": "Martinez", "email": "bob.martinez@email.com", "phone": "555-0102", "address": "456 Maple Ave" },
+    "technician": { "firstName": "Nina", "lastName": "Scott", "email": "nina.scott@fieldflow.com" },
+    "dispatcher": { "firstName": "Irene", "lastName": "Patel" },
+    "region": { "regionId": 1, "regionName": "Downtown", "city": "Portland", "state": "OR" },
+    "reviews": []
+  },
+  {
+    "description": "Washing machine vibrating loudly",
+    "status": "In Progress",
+    "scheduledDate": "2026-02-27",
+    "completedDate": null,
+    "priority": "Medium",
+    "client": { "firstName": "Tyler", "lastName": "Nakamura", "email": "tyler.nakamura@email.com", "phone": "555-0110", "address": "722 Redwood Pl" },
+    "technician": { "firstName": "Tina", "lastName": "Brooks", "email": "tina.brooks@fieldflow.com" },
+    "dispatcher": { "firstName": "Leo", "lastName": "Garcia" },
+    "region": { "regionId": 5, "regionName": "South Bay", "city": "San Jose", "state": "CA" },
+    "reviews": []
+  },
+  {
+    "description": "Install smart thermostat",
+    "status": "Assigned",
+    "scheduledDate": "2026-03-05",
+    "completedDate": null,
+    "priority": "Medium",
+    "client": { "firstName": "Carol", "lastName": "Chen", "email": "carol.chen@email.com", "phone": "555-0103", "address": "789 Pine Rd" },
+    "technician": { "firstName": "Laura", "lastName": "Mitchell", "email": "laura.mitchell@fieldflow.com" },
+    "dispatcher": { "firstName": "Jack", "lastName": "Thompson" },
+    "region": { "regionId": 2, "regionName": "Eastside", "city": "Portland", "state": "OR" },
+    "reviews": []
+  },
+  {
+    "description": "Repair garage door opener",
+    "status": "Assigned",
+    "scheduledDate": "2026-03-06",
+    "completedDate": null,
+    "priority": "Low",
+    "client": { "firstName": "Emily", "lastName": "Davis", "email": "emily.davis@email.com", "phone": "555-0105", "address": "654 Cedar Ln" },
+    "technician": { "firstName": "Quinn", "lastName": "Harris", "email": "quinn.harris@fieldflow.com" },
+    "dispatcher": { "firstName": "Karen", "lastName": "White" },
+    "region": { "regionId": 3, "regionName": "Westside", "city": "Portland", "state": "OR" },
+    "reviews": []
+  },
+  {
+    "description": "Emergency pipe leak",
+    "status": "Assigned",
+    "scheduledDate": "2026-03-07",
+    "completedDate": null,
+    "priority": "High",
+    "client": { "firstName": "Henry", "lastName": "Brown", "email": "henry.brown@email.com", "phone": "555-0108", "address": "258 Willow Ct" },
+    "technician": { "firstName": "Tina", "lastName": "Brooks", "email": "tina.brooks@fieldflow.com" },
+    "dispatcher": { "firstName": "Leo", "lastName": "Garcia" },
+    "region": { "regionId": 5, "regionName": "South Bay", "city": "San Jose", "state": "CA" },
+    "reviews": []
+  },
+  {
+    "description": "Replace bathroom exhaust fan",
+    "status": "Pending",
+    "scheduledDate": "2026-03-18",
+    "completedDate": null,
+    "priority": "Low",
+    "client": { "firstName": "Bob", "lastName": "Martinez", "email": "bob.martinez@email.com", "phone": "555-0102", "address": "456 Maple Ave" },
+    "technician": null,
+    "dispatcher": null,
+    "region": { "regionId": 1, "regionName": "Downtown", "city": "Portland", "state": "OR" },
+    "reviews": []
+  },
+  {
+    "description": "HVAC annual service",
+    "status": "Pending",
+    "scheduledDate": "2026-03-20",
+    "completedDate": null,
+    "priority": "Medium",
+    "client": { "firstName": "Vanessa", "lastName": "Reyes", "email": "vanessa.reyes@email.com", "phone": "555-0109", "address": "410 Ash Blvd" },
+    "technician": null,
+    "dispatcher": null,
+    "region": { "regionId": 4, "regionName": "North Bay", "city": "San Francisco", "state": "CA" },
+    "reviews": []
+  },
+  {
+    "description": "Fix leaking roof vent",
+    "status": "Completed",
+    "scheduledDate": "2026-02-15",
+    "completedDate": "2026-02-16",
+    "priority": "High",
+    "client": { "firstName": "Frank", "lastName": "Wilson", "email": "frank.wilson@email.com", "phone": "555-0106", "address": "987 Birch Way" },
+    "technician": { "firstName": "Rachel", "lastName": "Turner", "email": "rachel.turner@fieldflow.com" },
+    "dispatcher": { "firstName": "Karen", "lastName": "White" },
+    "region": { "regionId": 3, "regionName": "Westside", "city": "Portland", "state": "OR" },
+    "reviews": [
+      { "rating": 5, "comment": "Stopped the leak completely. Very thorough.", "reviewDate": "2026-02-17" }
+    ]
+  },
+  {
+    "description": "Install EV charger outlet",
+    "status": "Completed",
+    "scheduledDate": "2026-02-18",
+    "completedDate": "2026-02-19",
+    "priority": "Medium",
+    "client": { "firstName": "Grace", "lastName": "Lee", "email": "grace.lee@email.com", "phone": "555-0107", "address": "147 Spruce Dr" },
+    "technician": { "firstName": "Jason", "lastName": "Ortiz", "email": "jason.ortiz@fieldflow.com" },
+    "dispatcher": { "firstName": "Leo", "lastName": "Garcia" },
+    "region": { "regionId": 4, "regionName": "North Bay", "city": "San Francisco", "state": "CA" },
+    "reviews": [
+      { "rating": 4, "comment": "Charger works perfectly. Took a bit longer than quoted.", "reviewDate": "2026-02-20" }
+    ]
+  },
+  {
+    "description": "Upgrade electrical panel",
+    "status": "In Progress",
+    "scheduledDate": "2026-03-01",
+    "completedDate": null,
+    "priority": "High",
+    "client": { "firstName": "Tyler", "lastName": "Nakamura", "email": "tyler.nakamura@email.com", "phone": "555-0110", "address": "722 Redwood Pl" },
+    "technician": { "firstName": "Megan", "lastName": "Park", "email": "megan.park@fieldflow.com" },
+    "dispatcher": { "firstName": "Leo", "lastName": "Garcia" },
+    "region": { "regionId": 5, "regionName": "South Bay", "city": "San Jose", "state": "CA" },
+    "reviews": []
+  }
+]
