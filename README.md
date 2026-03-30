@@ -37,9 +37,9 @@ Walkthrough:
 To import, run from the project root:
 
 ```bash
-mongoimport --db fieldflow --collection technicians --file data/technicians.json --jsonArray --drop
-mongoimport --db fieldflow --collection clients --file data/clients.json --jsonArray --drop
-mongoimport --db fieldflow --collection jobs --file data/jobs.json --jsonArray --drop
+mongoimport --db fieldflow --collection technicians --file data/technicians.json --jsonArray
+mongoimport --db fieldflow --collection clients --file data/clients.json --jsonArray
+mongoimport --db fieldflow --collection jobs --file data/jobs.json --jsonArray
 ```
 
 
